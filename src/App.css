@@ -4,3 +4,10 @@
   padding: 2rem;
   text-align: center;
 }
+
+button{
+  cursor: pointer;
+  border: none;
+  background:none;
+  color: inherit;
+}

@@ -1,0 +1,57 @@
+dialog::backdrop{
+    background-color: hsla(0, 0%, 1%, 0.73);
+}
+
+.modal{
+    border: none;
+    border-radius: 20px;
+    width: 500px;
+    max-width: 100vw;
+}
+
+.modal-inner{
+    border-radius: 20px;
+    border: none;
+    text-align: left;
+}
+
+.modal-label{
+    font-size: 2rem;
+    font-weight: 700;
+    width: fit-content;
+    padding: 12px 0;
+}
+.order-items{
+    margin-top: 25px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: var(--Rose100);
+    padding: 20px;
+}
+
+.order-item{
+    gap: 4px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1.5px solid var(--Rose300);
+    padding-bottom: 20px;
+}
+
+.basic-info-wrapper{
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+    width: 60%;
+    gap: 8px;
+}
+
+.order-image{
+    border-radius: 10px;
+}
+
+.price-wrapper{
+    margin-left: auto;
+}
