@@ -2,8 +2,6 @@
     background-color: var(--Rose50);
     color: var(--Rose900);
     min-width: 320px;
-    width: 100vw;
-    max-width: 320px;
     height: 400px;
     overflow: scroll;
     border-radius: 12px;
@@ -90,3 +88,8 @@
     transform: scale(1.05);
 }
 
+@media only screen and (max-width: 1000px){
+    .cart{
+        flex-grow: 1;
+    }
+}

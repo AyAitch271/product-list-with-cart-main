@@ -26,9 +26,10 @@ dialog::backdrop{
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 16px;
     background-color: var(--Rose100);
     padding: 20px;
+    margin: 20px 0
 }
 
 .order-item{
@@ -37,7 +38,7 @@ dialog::backdrop{
     align-items: center;
     flex-wrap: wrap;
     border-bottom: 1.5px solid var(--Rose300);
-    padding-bottom: 20px;
+    padding-bottom: 16px
 }
 
 .basic-info-wrapper{
