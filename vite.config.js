@@ -6,4 +6,5 @@ export default defineConfig({
   plugins: [
     react(),
   ],
+  base: '/product-list-with-cart-main/'
 })
