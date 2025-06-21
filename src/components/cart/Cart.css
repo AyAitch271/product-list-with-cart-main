@@ -1,7 +1,8 @@
 .cart{
+    grid-area: sidebar;
     background-color: var(--Rose50);
     color: var(--Rose900);
-    min-width: 320px;
+    width: 320px;
     height: 400px;
     overflow: scroll;
     border-radius: 12px;
@@ -86,10 +87,4 @@
 
 .confirm-order-btn:hover{
     transform: scale(1.05);
-}
-
-@media only screen and (max-width: 1000px){
-    .cart{
-        flex-grow: 1;
-    }
 }
